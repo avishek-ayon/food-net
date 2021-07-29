@@ -1,5 +1,4 @@
-  
-  * {
+ * {
     box-sizing: border-box;
   }
   
@@ -49,7 +48,7 @@
     font-size: 40px;
     color: #808080;
   }
-  .skip {
+  .orange {
     color: orange;
   }
   body {
@@ -57,11 +56,11 @@
     font-size: 20px;
     color: grey;
   }
-  .order-btn {
+  .href-link {
     color: antiquewhite;
     height: 35px;
     font-size: 20px;
-    padding: 5px;
+    padding: 15px;
     text-decoration: none;
     width: 150px;
     border-radius: 80px;
@@ -80,6 +79,7 @@
   .about-me {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    background-size: 100%;
   }
   .title {
     text-align: center;
@@ -87,18 +87,18 @@
     padding-right: 25%;
     padding-bottom: 50px;
   }
-  .finishing {
+  .footer-section {
     background-color: black;
     padding-top: 40px;
     height: 300px;
     padding-bottom: 100px;
   }
-  .recipes {
+  #recipe-container {
     display: flex;
     padding-left: 20px;
     padding-bottom: 50px;
   }
-  .recipe img {
+  .recipe-item img {
     height: 200px;
     width: 300px;
   }
@@ -107,7 +107,7 @@
     font-weight: 900;
     font-size: 30px;
   }
-  .recipe {
+  .recipe-item {
     padding-left: 33px;
     padding-top: 10px;
     padding-right: 6px;
@@ -118,12 +118,12 @@
     border-radius: 20px;
     box-shadow: 12px 12px 7px gainsboro;
   }
-  .followers {
+  .social-followers {
     box-shadow: 3px 3px 2px whitesmoke;
     display: flex;
     margin-bottom: 60px;
   }
-  .ins-fol {
+  .total-followers {
     padding-left: 13%;
     padding-right: 7%;
   }
